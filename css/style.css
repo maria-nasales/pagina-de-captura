@@ -7,7 +7,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+}
 
+@media screen and (max-width: 500px){
+
+    .formcontainer{
+        float: none;
+        margin:auto;
+    }
 }
 
 .container{
@@ -101,14 +108,8 @@ footer{
     font-size: 24px;
 }
 
-@media screen and (max-widht:400px){
 
-    .formcontainer{
-        max-width: 230px;
-        background-color: #FFFFFFBB;
-        padding: 20px;
-    }
-}
+
 
     
 
